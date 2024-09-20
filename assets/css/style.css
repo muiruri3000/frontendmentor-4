@@ -1,0 +1,166 @@
+:root{
+--White: hsl(0, 0%, 100%);
+
+--Stone1: hsl(30, 54%, 90%);
+--Stone2: hsl(30, 18%, 87%);
+--Stone3: hsl(30, 10%, 34%);
+--Stone4: hsl(24, 5%, 18%);
+
+--Brown: hsl(14, 45%, 36%);
+
+--Rose1: hsl(332, 51%, 32%);
+--Rose2: hsl(330, 100%, 98%)
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Stone1);
+    padding-top:2rem;
+}
+main{
+background-color: var(--White);
+border-radius: 1.25rem;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 1.5rem;
+}
+
+section{
+
+    width: 100%;
+    max-width: 40rem;
+    padding: 2rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+
+    width: 40rem;
+}
+
+.content h1{
+    margin: 1rem 0 0 2rem;
+}
+.content p{
+    margin: 1rem 0.8rem 0 2rem;
+    
+}
+.para{
+
+    margin:1.3rem 2rem 0 2rem ;
+    padding: 1rem;
+    background-color:var(--Rose2);
+}
+
+.para ul{
+    margin:0.4rem 2rem;
+}
+
+.image img{
+    
+    width: 40rem;
+    border-radius: 1.25rem;
+   
+}
+.items{
+
+    margin-left: 2rem;
+}
+
+.items h3{
+    padding: 2.9rem 0 0.6rem 0;
+    color: var(--Brown);
+    font-size: 1.4rem;
+}
+
+.items ul {
+    margin-left: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td{
+    padding: 0.7rem ;
+    font-size: 1.1rem;
+    
+}
+ tr{
+    border-bottom: 2pt solid var(--Stone2);
+    width: 20%;
+}
+
+.cal{
+    color: var(--Brown);
+    font-weight:900;
+}
+
+@media (min-width: 375px) {
+  
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .image img {
+        max-width: 100%;
+        
+    }
+ 
+    .content{
+        width: 90%;
+   
+
+    }
+ 
+
+    .content ul{
+    margin: 0;
+    }
+  
+    main{
+       
+        max-width: 90%;
+        
+     
+      
+       
+        
+    }
+
+    .para{
+     
+        width: 80%;
+    }
+    .items{
+        width: 80%;
+       
+    }
+
+
+
+ 
+
+ 
+}
+/* @media (max-width:700px){
+    main{
+        padding: 25px;
+    }
+} */
