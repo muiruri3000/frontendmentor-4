@@ -29,12 +29,14 @@ body{
 main{
 background-color: var(--White);
 border-radius: 1.25rem;
-
+max-width: 50px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 1.5rem;
+
+
 }
 
 section{
@@ -70,7 +72,7 @@ section{
 
 .image img{
     
-    width: 40rem;
+    width: 100%;
     border-radius: 1.25rem;
    
 }
@@ -117,9 +119,14 @@ table td{
         align-items: center;
         padding: 0;
     }
+  
+ 
+    .img{
+        width: 100%;
+    }
 
     .image img {
-        max-width: 100%;
+        width: 100%;
         
     }
  
@@ -158,6 +165,13 @@ table td{
  
 
  
+}
+
+
+@media (max-width: 700px){
+    main{
+        width: 50%;
+    }
 }
 /* @media (max-width:700px){
     main{
