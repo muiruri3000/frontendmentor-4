@@ -35,7 +35,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/muiruri3000/frontendmentor-4.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://muiruri3000.github.io/frontendmentor-4/)
 
 ## My process
 
